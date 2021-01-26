@@ -7,4 +7,4 @@ Click on the link below to read the code.
 
 | S_No |   Name   |
 | ---- | -------- |
-|  01  |   <a href="one/">Josh's Apples</a>   |
+|  01  |   <a href="1-one/">Josh's Apples</a>   |
