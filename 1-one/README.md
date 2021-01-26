@@ -6,23 +6,23 @@ Josh went to the market to buy N apples. He found two shops, shop A and B, where
 
 ## Input Format:
 
-The first line of the input 
-consists of an integer – N, 
-representing the total number of apples 
-that Josh wants to buy.
+<br/>The first line of the input
+<br/>consists of an integer – N, 
+<br/>representing the total number of apples 
+<br/>that Josh wants to buy.
 
-The second line 
-consists of two space-separated 
-positive integers – M1 and P1, 
-representing the number of apples
-in a lot and the lot’s price at shop A, 
-respectively.
+<br/>The second line 
+<br/>consists of two space-separated 
+<br/>positive integers – M1 and P1, 
+<br/>representing the number of apples
+<br/>in a lot and the lot’s price at shop A, 
+<br/>respectively.
 
-The third line 
-consists of two space-separated 
-positive integers-M2 and P2, 
-representing the number of apples 
-in a lot’s price at shop B, respectively.
+<br/>The third line 
+<br/>consists of two space-separated 
+<br/>positive integers-M2 and P2, 
+<br/>representing the number of apples 
+<br/>in a lot’s price at shop B, respectively.
 
 
 ## Output Format:
