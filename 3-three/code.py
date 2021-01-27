@@ -1,12 +1,12 @@
 N     = int(input().strip())
 array = list(map(int, input().strip().split()))
 
-def bubbleSort(arr):
-    N = len(arr)
-    for i in range(N):
-        for j in range(0, N-i-1):
-            if arr[j] > arr[j+1]:
-                arr[j], arr[j+1] = arr[j+1], arr[j]
-    return arr
+def seperateEvenAndOdd(arr):
+    even_numbers = [[],[]]
 
-print(bubbleSort(array))
+    for i in arr:
+        even_numbers[i%2].append(i)
+    
+    return even_numbers[0] + even_numbers[1]
+
+print(seperateEvenAndOdd(array))
