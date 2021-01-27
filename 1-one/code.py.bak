@@ -1,0 +1,22 @@
+N      = input().strip()
+M1, P1 = input().strip().split()
+M2, P2 = input().strip().split()
+
+A, B, apples, price, SHOP = 0, 1, "apples", "price", {}
+
+N, SHOP[A][apples], SHOP[A][price], SHOP[B][apples], SHOP[B][price] = map(int,(N, M1, P1, M2, P2))
+
+cheap, costly = (SHOP[A], SHOP[B]) if (SHOP[A][apples]/SHOP[A][price]) <= SHOP[B][apples]/SHOP[B][price] else (SHOP[B], SHOP[A])
+
+total_apples = cheap
+total_price  = apples
+
+while total_apples <= N:
+    pass
+
+'''
+1. Find Cost Per Apple
+2. Select the least, and completely add the 
+'''
+
+print(min(p_comb))
